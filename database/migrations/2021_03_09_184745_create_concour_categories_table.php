@@ -15,6 +15,7 @@ class CreateConcourCategoriesTable extends Migration
     {
         Schema::create('concour_categories', function (Blueprint $table) {
             $table->id();
+            $table->string('nom');
             $table->timestamps();
         });
     }
