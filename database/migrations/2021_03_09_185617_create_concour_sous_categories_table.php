@@ -15,7 +15,13 @@ class CreateConcourSousCategoriesTable extends Migration
     {
         Schema::create('concour_sous_categories', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('categorie_id')->unsigned();
+            $table->string('nom');
             $table->timestamps();
+        });
+
+        Schema::table('concour_sous_categories', function (Blueprint $table) {
+            $table->foreign('categorie_id')->references('id')->on('concour_categories');
         });
     }
 
