@@ -2,13 +2,13 @@
 @section('contenue')
 
 <!-- start cssload-loader -->
-<div class="preloader">
+{{-- <div class="preloader">
     <div class="loader">
         <svg class="spinner" viewBox="0 0 50 50">
             <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
         </svg>
     </div>
-</div>
+</div> --}}
 <!-- end cssload-loader -->
 
 <!--======================================
@@ -37,7 +37,7 @@
                             </ul>
                         </div><!-- end header-right-info -->
                         <div class="header-right-info">
-                            <div class="shop-cart">
+                            {{-- <div class="shop-cart">
                                 <ul>
                                     <li>
                                         <p class="shop-cart-btn d-flex align-items-center">
@@ -82,13 +82,13 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </div><!-- end shop-cart -->
+                            </div><!-- end shop-cart --> --}}
                         </div><!-- end header-right-info -->
                         <div class="header-right-info">
                             <ul class="header-action-list">
-                                <li><a href="login.html">Login</a></li>
-                                <li>or</li>
-                                <li><a href="sign-up.html">Register</a></li>
+                                <li><a href="login.html">Se connecter</a></li>
+                                <li>ou</li>
+                                <li><a href="sign-up.html">S'inscrire</a></li>
                             </ul>
                         </div><!-- end header-right-info -->
                     </div><!-- end header-widget -->
@@ -102,7 +102,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="logo-box">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+                            <a href="index.html" class="logo"><img src="" alt="logo"></a>
                             <div class="menu-toggler">
                                 <i class="la la-bars"></i>
                                 <i class="la la-times"></i>
@@ -117,7 +117,7 @@
                                         <a href="#"><i class="la la-th-large mr-1"></i>Categories</a>
                                         <ul class="cat-dropdown-menu">
                                             <li>
-                                                <a href="course-grid.html">Development <i class="la la-angle-right"></i></a>
+                                                <a href="course-grid.html">Concours <i class="la la-angle-right"></i></a>
                                                 <ul class="sub-menu">
                                                     <li><a href="#">All Development</a></li>
                                                     <li><a href="#">Web Development</a></li>
@@ -131,7 +131,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="course-grid.html">business <i class="la la-angle-right"></i></a>
+                                                <a href="course-grid.html">Formations <i class="la la-angle-right"></i></a>
                                                 <ul class="sub-menu">
                                                     <li><a href="#">All Business</a></li>
                                                     <li><a href="#">Finance</a></li>
@@ -144,94 +144,6 @@
                                                     <li><a href="#">Other</a></li>
                                                 </ul>
                                             </li>
-                                            <li>
-                                                <a href="course-grid.html">IT & Software <i class="la la-angle-right"></i></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">All IT & Software</a></li>
-                                                    <li><a href="#">IT Certification</a></li>
-                                                    <li><a href="#">Hardware</a></li>
-                                                    <li><a href="#">Network & Security</a></li>
-                                                    <li><a href="#">Operating Systems</a></li>
-                                                    <li><a href="#">Other</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="course-grid.html">Finance & Accounting <i class="la la-angle-right"></i></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#"> All Finance & Accounting</a></li>
-                                                    <li><a href="#">Accounting & Bookkeeping</a></li>
-                                                    <li><a href="#">Cryptocurrency & Blockchain</a></li>
-                                                    <li><a href="#">Economics</a></li>
-                                                    <li><a href="#">Investing & Trading</a></li>
-                                                    <li><a href="#">Other Finance & Economics</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="course-grid.html">design <i class="la la-angle-right"></i></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">All Design</a></li>
-                                                    <li><a href="#">Graphic Design</a></li>
-                                                    <li><a href="#">Web Design</a></li>
-                                                    <li><a href="#">Design Tools</a></li>
-                                                    <li><a href="#">3D & Animation</a></li>
-                                                    <li><a href="#">User Experience</a></li>
-                                                    <li><a href="#">Other</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="course-grid.html">Personal Development <i class="la la-angle-right"></i></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">All Personal Development</a></li>
-                                                    <li><a href="#">Personal Transformation</a></li>
-                                                    <li><a href="#">Productivity</a></li>
-                                                    <li><a href="#">Leadership</a></li>
-                                                    <li><a href="#">Personal Finance</a></li>
-                                                    <li><a href="#">Career Development</a></li>
-                                                    <li><a href="#">Parenting & Relationships</a></li>
-                                                    <li><a href="#">Happiness</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="course-grid.html">Marketing <i class="la la-angle-right"></i></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">All Marketing</a></li>
-                                                    <li><a href="#">Digital Marketing</a></li>
-                                                    <li><a href="#">Search Engine Optimization</a></li>
-                                                    <li><a href="#">Social Media Marketing</a></li>
-                                                    <li><a href="#">Branding</a></li>
-                                                    <li><a href="#">Video & Mobile Marketing</a></li>
-                                                    <li><a href="#">Affiliate Marketing</a></li>
-                                                    <li><a href="#">Growth Hacking</a></li>
-                                                    <li><a href="#">Other</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="course-grid.html">Health & Fitness <i class="la la-angle-right"></i></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">All Health & Fitness</a></li>
-                                                    <li><a href="#">Fitness</a></li>
-                                                    <li><a href="#">Sports</a></li>
-                                                    <li><a href="#">Dieting</a></li>
-                                                    <li><a href="#">Self Defense</a></li>
-                                                    <li><a href="#">Meditation</a></li>
-                                                    <li><a href="#">Mental Health</a></li>
-                                                    <li><a href="#">Yoga</a></li>
-                                                    <li><a href="#">Dance</a></li>
-                                                    <li><a href="#">Other</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="course-grid.html">Photography <i class="la la-angle-right"></i></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">All Photography</a></li>
-                                                    <li><a href="#">Digital Photography</a></li>
-                                                    <li><a href="#">Photography Fundamentals</a></li>
-                                                    <li><a href="#">Commercial Photography</a></li>
-                                                    <li><a href="#">Video Design</a></li>
-                                                    <li><a href="#">Photography Tools</a></li>
-                                                    <li><a href="#">Other</a></li>
-                                                </ul>
-                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -240,7 +152,7 @@
                                 <form method="post">
                                     <div class="input-box">
                                         <div class="form-group">
-                                            <input class="form-control" type="text" name="search" placeholder="Search for anything">
+                                            <input class="form-control" type="text" name="search" placeholder="Quizs,Cours,Documents">
                                             <span class="la la-search search-icon"></span>
                                         </div>
                                     </div><!-- end input-box -->
@@ -249,56 +161,25 @@
                             <nav class="main-menu">
                                 <ul>
                                     <li>
-                                        <a href="#">Home</a>
-                                        <ul class="dropdown-menu-item">
-                                            <li><a href="index.html">Home 01</a></li>
-                                            <li><a href="home-2.html">Home 02</a></li>
-                                            <li><a href="home-3.html">Home 03</a></li>
-                                            <li><a href="home-rtl.html">Home RTL</a></li>
-                                        </ul>
+                                        <a href="#">Accueil</a>
                                     </li>
                                     <li>
-                                        <a href="#">courses</a>
-                                        <ul class="dropdown-menu-item">
+                                        <a href="#">Quiz Concours</a>
+                                        {{-- <ul class="dropdown-menu-item">
                                             <li><a href="course-grid.html">course grid</a></li>
                                             <li><a href="course-details.html">course details</a></li>
                                             <li><a href="lesson-details.html">lesson details</a></li>
                                             <li><a href="my-courses.html">My courses</a></li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
                                     <li>
-                                        <a href="#">Student</a>
+                                        <a href="#">Formations & Docs</a>
                                         <ul class="dropdown-menu-item">
-                                            <li><a href="student-detail.html">student detail</a></li>
-                                            <li><a href="student-quiz.html">take quiz</a> <span class="new-page-badge">New</span></li>
-                                            <li><a href="student-quiz-results.html">quiz results</a> <span class="new-page-badge">New</span></li>
-                                            <li><a href="student-quiz-result-details.html">quiz details</a> <span class="new-page-badge">New</span></li>
-                                            <li><a href="student-quiz-result-details-2.html">quiz details 2</a> <span class="new-page-badge">New</span></li>
-                                            <li><a href="student-path-assessment.html">Skill Assessment</a> <span class="new-page-badge">New</span></li>
-                                            <li><a href="student-path-assessment-result.html">Skill result</a> <span class="new-page-badge">New</span></li>
+                                            <li><a href="#">Formations</a></li>
+                                            <li><a href="#">Documents</a></li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href="#">pages</a>
-                                        <ul class="dropdown-menu-item">
-                                            <li><a href="dashboard.html">dashboard</a></li>
-                                            <li><a href="about.html">about</a></li>
-                                            <li><a href="teachers.html">Teachers</a></li>
-                                            <li><a href="teacher-detail.html">Teacher detail</a></li>
-                                            <li><a href="become-a-teacher.html">become instructor</a></li>
-                                            <li><a href="faq.html">FAQs</a></li>
-                                            <li><a href="admission.html">admission</a></li>
-                                            <li><a href="gallery.html">gallery</a></li>
-                                            <li><a href="pricing-table.html">pricing tables</a></li>
-                                            <li><a href="sign-up.html">sign-up</a></li>
-                                            <li><a href="login.html">login</a></li>
-                                            <li><a href="recover.html">recover</a></li>
-                                            <li><a href="shopping-cart.html">cart</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="error.html">error 404 page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
+                                    {{-- <li>
                                         <a href="#">blog</a>
                                         <ul class="dropdown-menu-item">
                                             <li><a href="blog-full-width.html">blog full width </a></li>
@@ -307,13 +188,13 @@
                                             <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
                                             <li><a href="blog-single.html">blog detail</a></li>
                                         </ul>
-                                    </li>
+                                    </li> --}}
                                     <li><a href="contact.html">contact</a></li>
                                 </ul><!-- end ul -->
                             </nav><!-- end main-menu -->
-                            <div class="logo-right-button">
+                            {{-- <div class="logo-right-button">
                                 <a href="admission.html" class="theme-btn">admission</a>
-                            </div><!-- end logo-right-button -->
+                            </div> --}}
                         </div><!-- end menu-wrapper -->
                     </div><!-- end col-lg-10 -->
                 </div><!-- end row -->
@@ -407,33 +288,33 @@
                     <div class="info-box info-box-color-1">
                         <div class="hover-overlay"></div>
                         <div class="icon-element mx-auto">
-                            <i class="la la-user"></i>
+                            <i class="la la-question"></i>
                         </div>
-                        <h3 class="info__title">Expert Teachers</h3>
+                        <h3 class="info__title">Quizs Concours</h3>
                         <p class="info__text">Tmply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-                        <a href="#" class="text-btn">read more</a>
+                        <a href="#" class="text-btn">plus d'infos</a>
                     </div><!-- end info-box -->
                 </div><!-- end col-lg-3 -->
                 <div class="col-lg-4 column-td-half">
                     <div class="info-box info-box-color-2">
                         <div class="hover-overlay"></div>
                         <div class="icon-element mx-auto">
-                            <i class="la la-paper-plane-o"></i>
+                            <i class="la la-graduation-cap"></i>
                         </div>
-                        <h3 class="info__title">Easy Communication</h3>
+                        <h3 class="info__title">Formations</h3>
                         <p class="info__text">Tmply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-                        <a href="#" class="text-btn">read more</a>
+                        <a href="#" class="text-btn">plus d'infos</a>
                     </div><!-- end info-box -->
                 </div><!-- end col-lg-3 -->
                 <div class="col-lg-4 column-td-half">
                     <div class="info-box info-box-color-3">
                         <div class="hover-overlay"></div>
                         <div class="icon-element mx-auto">
-                            <i class="la la-graduation-cap"></i>
+                            <i class="la la-book"></i>
                         </div>
-                        <h3 class="info__title">Get Certificates</h3>
+                        <h3 class="info__title">Documentation</h3>
                         <p class="info__text">Tmply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-                        <a href="#" class="text-btn">read more</a>
+                        <a href="#" class="text-btn">plus d'infos</a>
                     </div><!-- end info-box -->
                 </div><!-- end col-lg-3 -->
             </div><!-- end row -->
@@ -444,7 +325,7 @@
         END FEATURE AREA
     ======================================-->
 
-<!--======================================
+{{-- <!--======================================
         START CATEGORY AREA
 ======================================-->
 <section class="category-area padding-bottom-90px">
@@ -543,7 +424,7 @@
 </section><!-- end category-area -->
 <!--======================================
         END CATEGORY AREA
-======================================-->
+======================================--> --}}
 
 <!--======================================
         START COURSE AREA
@@ -554,8 +435,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading text-center">
-                        <h5 class="section__meta">choose your desired courses</h5>
-                        <h2 class="section__title">Browse Our Top Courses</h2>
+                        <h5 class="section__meta">Entrainez vous autant que vous voulez</h5>
+                        <h2 class="section__title">Quizs recents</h2>
                         <span class="section-divider"></span>
                     </div><!-- end section-heading -->
                 </div><!-- end col-lg-12 -->
@@ -566,27 +447,27 @@
                         <ul class="nav nav-tabs justify-content-center text-center" role="tablist" id="review">
                             <li role="presentation">
                                 <a href="#tab1" role="tab" data-toggle="tab" class="theme-btn active" aria-selected="true">
-                                    business
+                                    Categorie 1
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#tab2" role="tab" data-toggle="tab" class="theme-btn" aria-selected="false">
-                                    design
+                                    Categorie 2
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#tab3" role="tab" data-toggle="tab" class="theme-btn" aria-selected="false">
-                                    development
+                                    Categorie 3
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#tab4" role="tab" data-toggle="tab" class="theme-btn" aria-selected="false">
-                                    web
+                                    Categorie 4
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#tab5" role="tab" data-toggle="tab" class="theme-btn" aria-selected="false">
-                                    marketing
+                                    Categorie 5
                                 </a>
                             </li>
                         </ul>
@@ -2172,7 +2053,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="btn-box mt-4 text-center">
-                        <a href="course-grid.html" class="theme-btn">browse all Courses</a>
+                        <a href="course-grid.html" class="theme-btn">Voir tous les Quizs</a>
                     </div><!-- end btn-box -->
                 </div><!-- end col-lg-12 -->
             </div><!-- end row -->
@@ -2192,8 +2073,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading text-center">
-                        <h5 class="section__meta">Learn on your schedule</h5>
-                        <h2 class="section__title">Trending Courses</h2>
+                        <h5 class="section__meta">Apprenez à votre rythme</h5>
+                        <h2 class="section__title">Cours en tendances</h2>
                         <span class="section-divider"></span>
                     </div><!-- end section-heading -->
                 </div><!-- end col-lg-12 -->
@@ -2419,7 +2300,7 @@
         END COURSE AREA
 ======================================-->
 
-<!-- ================================
+{{-- <!-- ================================
        START FUNFACT AREA
 ================================= -->
 <section class="funfact-area text-center overflow-hidden padding-top-85px padding-bottom-85px">
@@ -2997,7 +2878,7 @@
 </section><!-- end testimonial-area -->
 <!--================================
         END TESTIMONIAL AREA
-=================================-->
+=================================--> --}}
 
 <!--======================================
         START GET-START AREA
@@ -3015,12 +2896,12 @@
             <div class="col-lg-12">
                 <div class="get-start-content">
                     <div class="section-heading">
-                        <h5 class="section__meta section__metalight">start online learning</h5>
-                        <h2 class="section__title text-white">Enhance Your Skills with <br> Best Online Courses</h2>
+                        <h5 class="section__meta section__metalight">Apprendre en ligne</h5>
+                        <h2 class="section__title text-white">Améliorez vos competences avec <br> avec les meilleurs quiz concoures et formations</h2>
                         <span class="section-divider section-divider-light"></span>
                     </div><!-- end section-heading -->
                     <div class="btn-box margin-top-20px">
-                        <a href="#" class="theme-btn theme-btn-hover-light">get started now</a>
+                        <a href="#" class="theme-btn theme-btn-hover-light">Creer un compte</a>
                     </div>
                 </div><!-- end get-start-content -->
             </div><!-- end col-lg-12 -->
@@ -3047,8 +2928,8 @@
             <div class="col-lg-6">
                 <div class="benefit-heading padding-top-120px">
                     <div class="section-heading">
-                        <h5 class="section__meta">get start with aduca</h5>
-                        <h2 class="section__title">Benefits of Learning With Aduca</h2>
+                        <h5 class="section__meta">Qui somes nous?</h5>
+                        <h2 class="section__title">A propos de Passeport E-learning</h2>
                         <span class="section-divider"></span>
                         <p class="section__desc">
                             Smply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -3094,7 +2975,7 @@
         END BENEFIT AREA
 ======================================-->
 
-<div class="section-block"></div>
+{{-- <div class="section-block"></div>
 
 <!--======================================
         START REGISTER AREA
@@ -3424,9 +3305,9 @@
 </section><!-- end blog-area -->
 <!-- ================================
        START BLOG AREA
-================================= -->
+================================= --> --}}
 
-<!--======================================
+{{-- <!--======================================
         START CTA AREA
 ======================================-->
 <section class="cta-area padding-top-115px padding-bottom-90px text-center">
@@ -3473,7 +3354,7 @@
 </section>
 <!-- ================================
        START CTA AREA
-================================= -->
+================================= --> --}}
 
 <!--======================================
         START SUBSCRIBER AREA
@@ -3484,9 +3365,9 @@
             <div class="col-lg-5">
                 <div class="section-heading">
                     <h5 class="section__meta section__metalight">newsletter</h5>
-                    <h2 class="section__title text-white">Subscribe our newsletter</h2>
+                    <h2 class="section__title text-white">Inscrivez-vous a notre newsletter </h2>
                     <span class="section-divider section-divider-light"></span>
-                    <p class="section__desc mb-0 text-color-rgba">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                    <p class="section__desc mb-0 text-color-rgba">Ne rater plus aucun quiz sur les concours</p>
                 </div><!-- end section-heading -->
             </div><!-- end col-lg-5 -->
             <div class="col-lg-6 ml-auto">
@@ -3494,14 +3375,14 @@
                     <div class="contact-form-action">
                         <form method="post">
                             <div class="input-box">
-                                <label class="form-label text-white">Your email address</label>
+                                <label class="form-label text-white">Email</label>
                                 <div class="form-group d-flex align-items-center">
-                                    <input class="form-control" type="email" name="email" placeholder="Enter your email" required>
+                                    <input class="form-control" type="email" name="email" placeholder="email" required>
                                     <span class="la la-envelope-o input-icon"></span>
-                                    <button class="theme-btn theme-btn-hover-light" type="submit">Subscribe</button>
+                                    <button class="theme-btn theme-btn-hover-light" type="submit">Souscrire</button>
                                 </div>
                                 <p class="text-color-rgba font-size-14 mt-1">
-                                   <i class="la la-lock mr-1"></i>Your information is safe with us! unsubscribe anytime.
+                                   <i class="la la-lock mr-1"></i>
                                 </p>
                             </div>
                         </form>
@@ -3528,10 +3409,10 @@
                     </a>
                     <ul class="list-items footer-address">
                         <li><a href="tel:+1631237884">+163 123 7884</a></li>
-                        <li><a href="mailto:support@wbsite.com" class="mail">support@website.com</a></li>
-                        <li>Melbourne, Australia, 105 South Park Avenue</li>
+                        <li><a href="mailto:support@wbsite.com" class="mail">support@passeportelearning.com</a></li>
+                        <li></li>
                     </ul>
-                    <h3 class="widget-title font-size-17 mt-4">We are on</h3>
+                    <h3 class="widget-title font-size-17 mt-4">Retrouvez nous sur :</h3>
                     <ul class="social-profile">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -3543,42 +3424,42 @@
             </div><!-- end col-lg-3 -->
             <div class="col-lg-3 column-td-half">
                 <div class="footer-widget">
-                    <h3 class="widget-title">Company</h3>
+                    <h3 class="widget-title">Entreprise</h3>
                     <span class="section-divider"></span>
                     <ul class="list-items">
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">contact us</a></li>
-                        <li><a href="#">become a Teacher</a></li>
+                        <li><a href="#">A propos</a></li>
+                        <li><a href="#">Nous contecter</a></li>
+                        {{-- <li><a href="#">become a Teacher</a></li> --}}
                         <li><a href="#">support</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        {{-- <li><a href="#">FAQs</a></li> --}}
                         <li><a href="#">blog</a></li>
                     </ul>
                 </div><!-- end footer-widget -->
             </div><!-- end col-lg-3 -->
             <div class="col-lg-3 column-td-half">
                 <div class="footer-widget">
-                    <h3 class="widget-title">Courses</h3>
+                    <h3 class="widget-title">Formations et Concours</h3>
                     <span class="section-divider"></span>
                     <ul class="list-items">
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Hacking</a></li>
-                        <li><a href="#">PHP Learning</a></li>
+                        <li><a href="#">Quizs concours</a></li>
+                        <li><a href="#">Cours Formation</a></li>
+                        {{-- <li><a href="#">PHP Learning</a></li>
                         <li><a href="#">Spoken English</a></li>
                         <li><a href="#">Self-Driving Car</a></li>
-                        <li><a href="#">Garbage Collectors</a></li>
+                        <li><a href="#">Garbage Collectors</a></li> --}}
                     </ul>
                 </div><!-- end footer-widget -->
             </div><!-- end col-lg-3 -->
             <div class="col-lg-3 column-td-half">
                 <div class="footer-widget">
-                    <h3 class="widget-title">Download App</h3>
+                    <h3 class="widget-title">Telecharger l'application Mobile</h3>
                     <span class="section-divider"></span>
                     <ul class="btn-box">
                         <li>
                             <a href="#" class="theme-btn">
                                 <i class="la la-apple icon-element"></i>
                                 <span class="app-titles">
-                                    <span class="app__subtitle">Download on the</span>
+                                    <span class="app__subtitle">Télecharger sur</span>
                                     <span class="app__title">App Store</span>
                                 </span>
                             </a>
@@ -3587,7 +3468,7 @@
                             <a href="#" class="theme-btn">
                                 <i class="la la-android icon-element"></i>
                                 <span class="app-titles">
-                                    <span class="app__subtitle">Get in on</span>
+                                    <span class="app__subtitle">Télecharger sur</span>
                                     <span class="app__title">Google Play</span>
                                 </span>
                             </a>
@@ -3599,8 +3480,8 @@
         <div class="copyright-content">
             <div class="row align-items-center">
                 <div class="col-lg-10">
-                    <p class="copy__desc">&copy; 2020 Aduca. All Rights Reserved. by <a href="https://themeforest.net/user/techydevs/portfolio">TechyDevs.</a></p>
-                </div><!-- end col-lg-9 -->
+                    <p class="copy__desc">&copy; {{date('Y')}} Passeport elearning. All Rights Reserved. by <a href="https:passeportelearning.com">ev</a></p>
+                </div>
                 <div class="col-lg-2">
                     <div class="sort-ordering">
                         <select class="sort-ordering-select">

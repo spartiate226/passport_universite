@@ -1,0 +1,51 @@
+.theme-btn
+{
+    background-color: #0070ff;
+}
+
+
+
+.info-box:hover{
+border-color:#0070ff;
+background-color:#0070ff;
+}
+
+
+
+
+.section-tab .nav-tabs li .theme-btn.active{
+background-color:#0070ff;
+color:#fff;
+}
+
+
+.section-tab .nav-tabs li .theme-btn{
+color:#0070ff;
+background-color:rgba(81,120 , 190, 0.1);
+}
+
+
+.section-divider{
+    background-color:#0070ff;
+    }
+
+
+
+.section__meta{
+color:#0070ff;
+
+background-color:rgba(81,120 , 190, 0.1);
+}
+
+.badge-label{
+    background-color:#0070ff;
+ }
+
+ .badge-label::after{
+    background-color:#0070ff;
+ }
+
+ .card__label-text{
+    color:#0070ff;
+    background-color:rgba(81,120 , 190, 0.1);
+ }
