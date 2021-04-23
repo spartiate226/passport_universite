@@ -54,6 +54,11 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
+        'worksheet' => [
+            'driver' => 'local',
+            'root' => base_path('worksheet'),
+            'url' => env('APP_URL').'/worksheet',
+        ],
 
         's3' => [
             'driver' => 's3',
