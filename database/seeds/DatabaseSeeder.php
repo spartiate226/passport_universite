@@ -12,10 +12,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            CategorieConcoursTableSeeder::class,
-            SousCategorieConcoursTableSeeder::class,
-            NiveauConcoursTableSeeder::class,
-            AnneeConcoursTableSeeder::class
+        CategorieConcoursTableSeeder::class,
+        AdminroleSeeder::class,
+        UserSeeder::class,
         ]);
     }
 }

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\concourQuestion;
+use App\concourQuestionElement;
 use App\concourQuiz;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -20,6 +22,8 @@ class ConcourController extends Controller
     }
 
     function ajout(Request $request){
+        $data=$request->except(['excel']);
+        $quiz_concour=concourQuestion::create($data);
         $file=$request->excel->storeAs("work","sheet.xlsx","worksheet");
        $quiz=[];
        $reader=new Xlsx();
@@ -31,14 +35,14 @@ class ConcourController extends Controller
                   $quiz[$i]=$cell->getValue();
                   $i++;
               }
-              $quiz[2]=json_encode(explode(";",$quiz[2]));
-              $quiz[3]=json_encode(explode(";",$quiz[3]));
-              $concour=new concourQuiz();
+              $quiz[1]=json_encode(explode("//",$quiz[1]));
+              $quiz[2]=json_encode(explode("//",$quiz[2]));
+              $concour=new concourQuestionElement();
               $concour->question=$quiz[0];
-              $concour->categorie=$quiz[1];
-              $concour->reponses=$quiz[2];
-              $concour->propositions=$quiz[3];
-              $concour->point=$quiz[4];
+              $concour->concour_question_id=$quiz_concour->id;
+              $concour->reponses=$quiz[1];
+              $concour->propositions=$quiz[2];
+              $concour->point=$quiz[3];
               $concour->save();
           }
        }

@@ -15,6 +15,11 @@ class CreateConcourResultatsTable extends Migration
     {
         Schema::create('concour_resultats', function (Blueprint $table) {
             $table->id();
+            $table->integer('concour_question_id');
+            $table->integer('user_id');
+            $table->integer('point');
+            $table->integer('skip');
+            $table->string('quizperdu');
             $table->timestamps();
         });
     }

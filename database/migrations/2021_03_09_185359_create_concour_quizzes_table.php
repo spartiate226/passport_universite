@@ -15,8 +15,8 @@ class CreateConcourQuizzesTable extends Migration
     {
         Schema::create('concour_quizzes', function (Blueprint $table) {
             $table->id();
+            $table->integer('quiz');
             $table->string("question");
-            $table->string("categorie");
             $table->text("reponses");
             $table->text("propositions");
             $table->integer("point");

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f81139a2-7c4a-468e-a373-90f9e7e4aa2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../app/AdminRole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/Http/Controllers/Admin/linkController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/Http/Controllers/Front/linkController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/Http/Controllers/authController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/passportUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database/factories/Adminrolefactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database/migrations/2021_06_07_223048_create_passport_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database/migrations/2021_06_07_223823_create_admin_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database/seeds/AdminroleSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database/seeds/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/2590825_L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/4691414_L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/6027005_L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/6292006_L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/andre-hunter-AQ908FfdAMw-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/images (8).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/nqobile-vundla-zOt6a59k2BE-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/oluwakemi-solaja-ZN52ZBFkw4Y-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../images/seven-shooter-hPKTYwJ4FUo-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/frontoffice/concour/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/frontoffice/concour/profil.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/frontoffice/concour/quiz-run.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/frontoffice/concour/quiz-single.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/frontoffice/concour/quizs.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/views/frontoffice/concour/resultats.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Admin/ConcourController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/Admin/ConcourController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourAbonnement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourAnne.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourNiveau.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourPack.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourQuestion.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/concourQuestion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourQuiz.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourReponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourRubrique.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/concourSousCategorie.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/helper/routeConcour.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/helper/routeConcour.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/factories/AnneeConcoursFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/factories/CategorieConcoursFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/factories/CategorieConcoursFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/factories/NiveauConcoursFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/factories/SousCategorieConcoursFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185333_create_concour_rubriques_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185359_create_concour_quizzes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/migrations/2021_03_09_185359_create_concour_quizzes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185426_create_concour_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/migrations/2021_03_09_185426_create_concour_questions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185452_create_concour_reponses_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185554_create_concour_packs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185617_create_concour_sous_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185713_create_concour_abonnements_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185746_create_concour_niveaux_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2021_03_09_185749_create_concour_annes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/seeds/AnneeConcoursTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/seeds/CategorieConcoursTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/seeds/CategorieConcoursTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/seeds/NiveauConcoursTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/seeds/SousCategorieConcoursTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/about-breadcrumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/breadcrumb-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/dots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/first.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/img9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/instructor-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/map-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/payment-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/preview-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/promo-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/slider-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/slider-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/slider-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/slider-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/slider-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/small-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sponsor-img9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/student-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/team9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/testi-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/testi-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/testi-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/testi-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/testi-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/testi-img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/back/concour/ajout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/back/concour/ajout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/frontoffice/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/frontoffice/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/frontoffice/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/frontoffice/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/myquiz.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/myquiz.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/panel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/resultat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/frontoffice/dashboard/resultat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/frontoffice/frontpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/frontoffice/frontpage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worksheet/work/sheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worksheet/work/sheet.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/AdminLTE-master/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1x3aigSSIwiNMQbutLX4UJotYKF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f81139a2-7c4a-468e-a373-90f9e7e4aa2d" name="Default Changelist" comment="" />
+      <created>1629586358946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629586358946</updated>
+      <workItem from="1629586378820" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

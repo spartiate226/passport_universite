@@ -15,6 +15,8 @@ class CreateConcourQuestionsTable extends Migration
     {
         Schema::create('concour_questions', function (Blueprint $table) {
             $table->id();
+            $table->string("title");
+            $table->integer('concour_categorie_id');
             $table->timestamps();
         });
     }

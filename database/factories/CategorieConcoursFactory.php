@@ -7,6 +7,6 @@ use Faker\Generator as Faker;
 
 $factory->define(concourCategorie::class, function (Faker $faker) {
     return [
-        'nom'=>$faker->lastName
+        'nom'=>"Concours directs"
     ];
 });

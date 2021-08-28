@@ -16,5 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontoffice.frontpage');
 });
-
+Route::post('auth/connexion','authController@visiteConnexion');
+Route::post('auth/inscription','authController@visiteRegister');
 concourRoute();
+Route::any('page/{page}/{param?}','Front\linkController');

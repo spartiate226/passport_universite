@@ -42,7 +42,8 @@
             "database/factories"
         ],
         "files": [
-            "app/helper/routeConcour.php"
+            "app/helper/routeConcour.php",
+            "app/helper/tools.php"
         ]
     },
     "autoload-dev": {

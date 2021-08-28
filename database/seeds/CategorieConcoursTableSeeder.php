@@ -12,6 +12,8 @@ class CategorieConcoursTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\concourCategorie', 30)->create();
+        factory('App\concourCategorie')->create();
+        factory('App\concourCategorie')->create(["nom"=>"Concours professionels"]);
+        factory('App\concourCategorie')->create(["nom"=>"Mesures nouvelles"]);
     }
 }
